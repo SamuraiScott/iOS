@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BIDViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="LL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvo-GO-cud">
+                                <rect key="frame" x="20" y="527" width="133" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37647062540054321" green="1" blue="0.90196084976196289" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="LR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="619-AT-2Re">
+                                <rect key="frame" x="161" y="527" width="139" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37647062540054321" green="1" blue="0.90196084976196289" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Left Side" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OU-r3-FWD">
+                                <rect key="frame" x="20" y="273" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Right Side" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzM-3M-Saf">
+                                <rect key="frame" x="220" y="273" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="UL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJ4-Tn-S59">
+                                <rect key="frame" x="20" y="20" width="133" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37647062540054321" green="1" blue="0.90196084976196289" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="UR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BF2-6t-Esb">
+                                <rect key="frame" x="161" y="20" width="139" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37647062540054321" green="1" blue="0.90196084976196289" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="619-AT-2Re" firstAttribute="leading" secondItem="Xvo-GO-cud" secondAttribute="trailing" constant="8" id="5Fg-9E-AHC"/>
+                            <constraint firstItem="xzM-3M-Saf" firstAttribute="baseline" secondItem="4OU-r3-FWD" secondAttribute="baseline" id="6SS-sg-SD0"/>
+                            <constraint firstItem="619-AT-2Re" firstAttribute="width" secondItem="Xvo-GO-cud" secondAttribute="width" id="8RI-u6-3FU"/>
+                            <constraint firstAttribute="bottom" secondItem="Xvo-GO-cud" secondAttribute="bottom" constant="20" symbolic="YES" id="9Of-C7-Ot4"/>
+                            <constraint firstItem="BF2-6t-Esb" firstAttribute="trailing" secondItem="xzM-3M-Saf" secondAttribute="trailing" id="AFK-JD-j6B"/>
+                            <constraint firstItem="hJ4-Tn-S59" firstAttribute="leading" secondItem="4OU-r3-FWD" secondAttribute="leading" id="AjA-hR-aa2"/>
+                            <constraint firstItem="BF2-6t-Esb" firstAttribute="trailing" secondItem="619-AT-2Re" secondAttribute="trailing" id="BI2-3P-qlY"/>
+                            <constraint firstAttribute="trailing" secondItem="BF2-6t-Esb" secondAttribute="trailing" constant="20" symbolic="YES" id="Eqa-Kr-okb"/>
+                            <constraint firstItem="619-AT-2Re" firstAttribute="baseline" secondItem="Xvo-GO-cud" secondAttribute="baseline" id="VfX-wv-2iE"/>
+                            <constraint firstItem="BF2-6t-Esb" firstAttribute="leading" secondItem="hJ4-Tn-S59" secondAttribute="trailing" constant="8" symbolic="YES" id="ZGc-4P-Ifx"/>
+                            <constraint firstItem="hJ4-Tn-S59" firstAttribute="baseline" secondItem="BF2-6t-Esb" secondAttribute="baseline" id="d1S-7r-2qu"/>
+                            <constraint firstAttribute="centerY" secondItem="4OU-r3-FWD" secondAttribute="centerY" id="iCr-m5-aMK"/>
+                            <constraint firstItem="hJ4-Tn-S59" firstAttribute="width" secondItem="BF2-6t-Esb" secondAttribute="width" id="kBE-Ha-9Ok"/>
+                            <constraint firstItem="hJ4-Tn-S59" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="owS-UJ-Lu5"/>
+                            <constraint firstItem="BF2-6t-Esb" firstAttribute="leading" secondItem="hJ4-Tn-S59" secondAttribute="trailing" constant="8" id="rhw-QR-Hhh"/>
+                            <constraint firstItem="hJ4-Tn-S59" firstAttribute="leading" secondItem="Xvo-GO-cud" secondAttribute="leading" id="sID-fg-xXU"/>
+                            <constraint firstItem="hJ4-Tn-S59" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" symbolic="YES" id="zJW-yz-x4S"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

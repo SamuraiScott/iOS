@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CE71A26E-6477-400A-9D50-5BC9D4F97EA6</string>
+	<string>CFDCBF95-A33C-49E9-8D9D-53F25E29E2D5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ControlFun</string>
+	<string>Restructure</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2A51873F-8329-4681-A2FE-BE3D6F2A071B</key>
 		<string>https://github.com/SamuraiScott/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ControlFun/ControlFun.xcodeproj/project.xcworkspace</string>
+	<string>Restructure/Restructure.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2A51873F-8329-4681-A2FE-BE3D6F2A071B</key>
