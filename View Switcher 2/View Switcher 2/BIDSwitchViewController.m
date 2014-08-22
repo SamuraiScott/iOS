@@ -1,8 +1,8 @@
 //
 //  BIDSwitchViewController.m
-//  ViewSwitcher
+//  View Switcher 2
 //
-//  Created by Scott on 2014-08-21.
+//  Created by Scott on 2014-08-22.
 //  Copyright (c) 2014 ScottMaile. All rights reserved.
 //
 
@@ -11,7 +11,6 @@
 #import "BIDBlueViewController.h"
 
 @interface BIDSwitchViewController ()
-
 @property (strong, nonatomic) BIDYellowViewController *yellowViewController;
 @property (strong, nonatomic) BIDBlueViewController *blueViewController;
 
@@ -32,9 +31,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.blueViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"blue"];
+    self.blueViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Blue"];
     [self.view insertSubview:self.blueViewController.view atIndex:0];
-}
+} 
 
 - (void)didReceiveMemoryWarning
 {
@@ -44,7 +43,6 @@
         self.blueViewController = nil;
     } else {
         self.yellowViewController = nil;
-        
     }
 }
 
@@ -58,13 +56,12 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (IBAction) switchViews:(id)sender
+- (IBAction)switchViews:(id)sender
 {
     if (!self.yellowViewController.view.superview) {
         if (!self.yellowViewController) {
-            
             self.yellowViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Yellow"];
-    }
+        }
         [self.blueViewController.view removeFromSuperview];
         [self.view insertSubview:self.yellowViewController.view atIndex:0];
     } else {
@@ -73,7 +70,7 @@
         }
         [self.yellowViewController.view removeFromSuperview];
         [self.view insertSubview:self.blueViewController.view atIndex:0];
-        }
     }
+}
 
 @end
