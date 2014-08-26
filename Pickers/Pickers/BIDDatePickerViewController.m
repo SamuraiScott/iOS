@@ -10,6 +10,8 @@
 
 @interface BIDDatePickerViewController ()
 
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+
 @end
 
 @implementation BIDDatePickerViewController
@@ -27,6 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSDate *now = [NSDate date];
+    [self.datePicker setDate:now animated:NO];
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,5 +49,17 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)buttonPressed:(id)sender {
+    NSDate *selected = [self.datePicker date];
+    NSString *message = [[NSString alloc]initWithFormat:@"The date and time you selected is: %@", selected];
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle:@"Date and Time Selected"
+                          message:message
+                          delegate:nil
+                          cancelButtonTitle:@"That's so true!"
+                          otherButtonTitles:Nil];
+                          
+    [alert show];
+}
 
 @end

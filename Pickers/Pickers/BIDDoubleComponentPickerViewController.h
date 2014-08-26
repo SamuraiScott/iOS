@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDDoubleComponentPickerViewController : UIViewController
+<UIPickerViewDelegate, UIPickerViewDataSource>
 
 @end
