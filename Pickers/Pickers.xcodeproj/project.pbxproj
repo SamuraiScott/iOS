@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21F714419AE72E000B79E9E /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F714319AE72E000B79E9E /* BIDCustomPickerViewController.m */; };
+		D258797719AE53AB00D3CEC9 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = D258797619AE53AB00D3CEC9 /* statedictionary.plist */; };
 		D282B52E19ABCB50001E81B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D282B52D19ABCB50001E81B3 /* Foundation.framework */; };
 		D282B53019ABCB50001E81B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D282B52F19ABCB50001E81B3 /* CoreGraphics.framework */; };
 		D282B53219ABCB50001E81B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D282B53119ABCB50001E81B3 /* UIKit.framework */; };
@@ -23,8 +25,9 @@
 		D282B56119ABCCA3001E81B3 /* BIDSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D282B56019ABCCA3001E81B3 /* BIDSingleComponentPickerViewController.m */; };
 		D282B56419ABCCD4001E81B3 /* BIDDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D282B56319ABCCD4001E81B3 /* BIDDoubleComponentPickerViewController.m */; };
 		D282B56719ABCD05001E81B3 /* BIDDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D282B56619ABCD05001E81B3 /* BIDDependentComponentPickerViewController.m */; };
-		D282B56A19ABCD27001E81B3 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D282B56919ABCD27001E81B3 /* BIDCustomPickerViewController.m */; };
 		D282B56C19ABCEAB001E81B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D282B56B19ABCEAB001E81B3 /* Main.storyboard */; };
+		D2D01E6619AFA22B00149212 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D01E6519AFA22B00149212 /* crunch.wav */; };
+		D2D01E6819AFA23600149212 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D01E6719AFA23600149212 /* win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D21F714219AE72E000B79E9E /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
+		D21F714319AE72E000B79E9E /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
+		D258797619AE53AB00D3CEC9 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = "../../../../Downloads/iOS FIles/07 - Pickers/Pickers/statedictionary.plist"; sourceTree = "<group>"; };
 		D282B52A19ABCB50001E81B3 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D282B52D19ABCB50001E81B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D282B52F19ABCB50001E81B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +68,9 @@
 		D282B56319ABCCD4001E81B3 /* BIDDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
 		D282B56519ABCD05001E81B3 /* BIDDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDependentComponentPickerViewController.h; sourceTree = "<group>"; };
 		D282B56619ABCD05001E81B3 /* BIDDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDependentComponentPickerViewController.m; sourceTree = "<group>"; };
-		D282B56819ABCD27001E81B3 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
-		D282B56919ABCD27001E81B3 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		D282B56B19ABCEAB001E81B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D2D01E6519AFA22B00149212 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crunch.wav; path = "../../../../Downloads/iOS FIles/07 - Pickers/Pickers/crunch.wav"; sourceTree = "<group>"; };
+		D2D01E6719AFA23600149212 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = "../../../../Downloads/iOS FIles/07 - Pickers/Pickers/win.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,8 @@
 		D282B53319ABCB50001E81B3 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				D2D01E6719AFA23600149212 /* win.wav */,
+				D2D01E6519AFA22B00149212 /* crunch.wav */,
 				D282B53C19ABCB50001E81B3 /* BIDAppDelegate.h */,
 				D282B53D19ABCB50001E81B3 /* BIDAppDelegate.m */,
 				D282B53F19ABCB50001E81B3 /* Images.xcassets */,
@@ -136,9 +144,9 @@
 				D282B56319ABCCD4001E81B3 /* BIDDoubleComponentPickerViewController.m */,
 				D282B56519ABCD05001E81B3 /* BIDDependentComponentPickerViewController.h */,
 				D282B56619ABCD05001E81B3 /* BIDDependentComponentPickerViewController.m */,
-				D282B56819ABCD27001E81B3 /* BIDCustomPickerViewController.h */,
-				D282B56919ABCD27001E81B3 /* BIDCustomPickerViewController.m */,
 				D282B56B19ABCEAB001E81B3 /* Main.storyboard */,
+				D21F714219AE72E000B79E9E /* BIDCustomPickerViewController.h */,
+				D21F714319AE72E000B79E9E /* BIDCustomPickerViewController.m */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 		D282B53419ABCB50001E81B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D258797619AE53AB00D3CEC9 /* statedictionary.plist */,
 				D282B53519ABCB50001E81B3 /* Pickers-Info.plist */,
 				D282B53619ABCB50001E81B3 /* InfoPlist.strings */,
 				D282B53919ABCB50001E81B3 /* main.m */,
@@ -248,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D01E6619AFA22B00149212 /* crunch.wav in Resources */,
 				D282B56C19ABCEAB001E81B3 /* Main.storyboard in Resources */,
 				D282B53819ABCB50001E81B3 /* InfoPlist.strings in Resources */,
+				D2D01E6819AFA23600149212 /* win.wav in Resources */,
+				D258797719AE53AB00D3CEC9 /* statedictionary.plist in Resources */,
 				D282B54019ABCB50001E81B3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +287,7 @@
 				D282B53E19ABCB50001E81B3 /* BIDAppDelegate.m in Sources */,
 				D282B53A19ABCB50001E81B3 /* main.m in Sources */,
 				D282B55E19ABCC3D001E81B3 /* BIDDatePickerViewController.m in Sources */,
-				D282B56A19ABCD27001E81B3 /* BIDCustomPickerViewController.m in Sources */,
+				D21F714419AE72E000B79E9E /* BIDCustomPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +484,7 @@
 				D282B55819ABCB50001E81B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D282B55919ABCB50001E81B3 /* Build configuration list for PBXNativeTarget "PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +493,7 @@
 				D282B55B19ABCB50001E81B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
